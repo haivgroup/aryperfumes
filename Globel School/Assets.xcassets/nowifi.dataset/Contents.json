@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "data" : [
     {
+      "filename" : "nowifi.webp",
       "idiom" : "universal"
     }
   ],

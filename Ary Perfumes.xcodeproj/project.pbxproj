@@ -17,6 +17,12 @@
 		2028CC552A58579100E11C22 /* Globel_SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2028CC542A58579100E11C22 /* Globel_SchoolTests.swift */; };
 		2028CC5F2A58579100E11C22 /* Globel_SchoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2028CC5E2A58579100E11C22 /* Globel_SchoolUITests.swift */; };
 		2028CC612A58579100E11C22 /* Globel_SchoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2028CC602A58579100E11C22 /* Globel_SchoolUITestsLaunchTests.swift */; };
+		2028CC6E2A58597700E11C22 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2028CC6D2A58597700E11C22 /* Reachability.swift */; };
+		2028CC762A5886AA00E11C22 /* NetworkErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2028CC752A5886AA00E11C22 /* NetworkErrorViewController.swift */; };
+		2028CC7E2A5F33DA00E11C22 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2028CC7D2A5F33DA00E11C22 /* NotificationService.swift */; };
+		2028CC822A5F33DA00E11C22 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2028CC7B2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2028CC8C2A5F365700E11C22 /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = 2028CC8B2A5F365700E11C22 /* OneSignal */; };
+		2028CC8E2A5F365700E11C22 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 2028CC8D2A5F365700E11C22 /* OneSignalExtension */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +40,28 @@
 			remoteGlobalIDString = 2028CC362A58578F00E11C22;
 			remoteInfo = "Globel School";
 		};
+		2028CC802A5F33DA00E11C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2028CC2F2A58578F00E11C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2028CC7A2A5F33DA00E11C22;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2028CC862A5F33DA00E11C22 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2028CC822A5F33DA00E11C22 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2028CC372A58578F00E11C22 /* Globel School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Globel School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +78,12 @@
 		2028CC5A2A58579100E11C22 /* Globel SchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Globel SchoolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2028CC5E2A58579100E11C22 /* Globel_SchoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globel_SchoolUITests.swift; sourceTree = "<group>"; };
 		2028CC602A58579100E11C22 /* Globel_SchoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globel_SchoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2028CC6D2A58597700E11C22 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2028CC752A5886AA00E11C22 /* NetworkErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorViewController.swift; sourceTree = "<group>"; };
+		2028CC7B2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2028CC7D2A5F33DA00E11C22 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		2028CC7F2A5F33DA00E11C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2028CC8F2A5F37DB00E11C22 /* Globel School.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Globel School.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2028CC8C2A5F365700E11C22 /* OneSignal in Frameworks */,
+				2028CC8E2A5F365700E11C22 /* OneSignalExtension in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +110,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2028CC782A5F33DA00E11C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +126,7 @@
 				2028CC392A58578F00E11C22 /* Globel School */,
 				2028CC532A58579100E11C22 /* Globel SchoolTests */,
 				2028CC5D2A58579100E11C22 /* Globel SchoolUITests */,
+				2028CC7C2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension */,
 				2028CC382A58578F00E11C22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +137,7 @@
 				2028CC372A58578F00E11C22 /* Globel School.app */,
 				2028CC502A58579100E11C22 /* Globel SchoolTests.xctest */,
 				2028CC5A2A58579100E11C22 /* Globel SchoolUITests.xctest */,
+				2028CC7B2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +145,8 @@
 		2028CC392A58578F00E11C22 /* Globel School */ = {
 			isa = PBXGroup;
 			children = (
+				2028CC8F2A5F37DB00E11C22 /* Globel School.entitlements */,
+				2028CC6D2A58597700E11C22 /* Reachability.swift */,
 				2028CC3A2A58578F00E11C22 /* AppDelegate.swift */,
 				2028CC3C2A58578F00E11C22 /* SceneDelegate.swift */,
 				2028CC3E2A58578F00E11C22 /* ViewController.swift */,
@@ -109,6 +155,7 @@
 				2028CC482A58579000E11C22 /* LaunchScreen.storyboard */,
 				2028CC4B2A58579000E11C22 /* Info.plist */,
 				2028CC432A58578F00E11C22 /* Globel_School.xcdatamodeld */,
+				2028CC752A5886AA00E11C22 /* NetworkErrorViewController.swift */,
 			);
 			path = "Globel School";
 			sourceTree = "<group>";
@@ -130,6 +177,15 @@
 			path = "Globel SchoolUITests";
 			sourceTree = "<group>";
 		};
+		2028CC7C2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2028CC7D2A5F33DA00E11C22 /* NotificationService.swift */,
+				2028CC7F2A5F33DA00E11C22 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,12 +196,18 @@
 				2028CC332A58578F00E11C22 /* Sources */,
 				2028CC342A58578F00E11C22 /* Frameworks */,
 				2028CC352A58578F00E11C22 /* Resources */,
+				2028CC862A5F33DA00E11C22 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2028CC812A5F33DA00E11C22 /* PBXTargetDependency */,
 			);
 			name = "Globel School";
+			packageProductDependencies = (
+				2028CC8B2A5F365700E11C22 /* OneSignal */,
+				2028CC8D2A5F365700E11C22 /* OneSignalExtension */,
+			);
 			productName = "Globel School";
 			productReference = 2028CC372A58578F00E11C22 /* Globel School.app */;
 			productType = "com.apple.product-type.application";
@@ -186,6 +248,23 @@
 			productReference = 2028CC5A2A58579100E11C22 /* Globel SchoolUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		2028CC7A2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2028CC832A5F33DA00E11C22 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				2028CC772A5F33DA00E11C22 /* Sources */,
+				2028CC782A5F33DA00E11C22 /* Frameworks */,
+				2028CC792A5F33DA00E11C22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 2028CC7B2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +286,9 @@
 						CreatedOnToolsVersion = 13.2;
 						TestTargetID = 2028CC362A58578F00E11C22;
 					};
+					2028CC7A2A5F33DA00E11C22 = {
+						CreatedOnToolsVersion = 13.2;
+					};
 				};
 			};
 			buildConfigurationList = 2028CC322A58578F00E11C22 /* Build configuration list for PBXProject "Globel School" */;
@@ -218,6 +300,9 @@
 				Base,
 			);
 			mainGroup = 2028CC2E2A58578F00E11C22;
+			packageReferences = (
+				2028CC8A2A5F365700E11C22 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
 			productRefGroup = 2028CC382A58578F00E11C22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -225,6 +310,7 @@
 				2028CC362A58578F00E11C22 /* Globel School */,
 				2028CC4F2A58579100E11C22 /* Globel SchoolTests */,
 				2028CC592A58579100E11C22 /* Globel SchoolUITests */,
+				2028CC7A2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -254,6 +340,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2028CC792A5F33DA00E11C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,9 +354,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2028CC762A5886AA00E11C22 /* NetworkErrorViewController.swift in Sources */,
 				2028CC3F2A58578F00E11C22 /* ViewController.swift in Sources */,
 				2028CC3B2A58578F00E11C22 /* AppDelegate.swift in Sources */,
 				2028CC452A58578F00E11C22 /* Globel_School.xcdatamodeld in Sources */,
+				2028CC6E2A58597700E11C22 /* Reachability.swift in Sources */,
 				2028CC3D2A58578F00E11C22 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +380,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2028CC772A5F33DA00E11C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2028CC7E2A5F33DA00E11C22 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -297,6 +400,11 @@
 			isa = PBXTargetDependency;
 			target = 2028CC362A58578F00E11C22 /* Globel School */;
 			targetProxy = 2028CC5B2A58579100E11C22 /* PBXContainerItemProxy */;
+		};
+		2028CC812A5F33DA00E11C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2028CC7A2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 2028CC802A5F33DA00E11C22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -439,10 +547,14 @@
 		2028CC652A58579100E11C22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Globel School/Globel School.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56GC3J8RPS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Globel School/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -457,6 +569,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.Globel-School";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,10 +579,14 @@
 		2028CC662A58579100E11C22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Globel School/Globel School.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56GC3J8RPS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Globel School/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -484,6 +601,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.Globel-School";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -562,6 +680,58 @@
 			};
 			name = Release;
 		};
+		2028CC842A5F33DA00E11C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56GC3J8RPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.Globel-School.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2028CC852A5F33DA00E11C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56GC3J8RPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.Globel-School.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -601,7 +771,40 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2028CC832A5F33DA00E11C22 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2028CC842A5F33DA00E11C22 /* Debug */,
+				2028CC852A5F33DA00E11C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2028CC8A2A5F365700E11C22 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2028CC8B2A5F365700E11C22 /* OneSignal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2028CC8A2A5F365700E11C22 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignal;
+		};
+		2028CC8D2A5F365700E11C22 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2028CC8A2A5F365700E11C22 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		2028CC432A58578F00E11C22 /* Globel_School.xcdatamodeld */ = {
