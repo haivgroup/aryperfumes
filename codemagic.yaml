@@ -2,12 +2,14 @@ workflows:
   ios-app-store:
     name: iOS App Store Build
     integrations:
-      app_store_connect: "Magic"
+      app_store_connect: Magic
     environment:
       xcode: latest
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: Haiv-Group.aryperfumes
+        bundle_identifier: 
+          - Haiv-Group.aryperfumes
+          - Haiv-Group.aryperfumes.OneSignalNotificationServiceExtension
     scripts:
       - name: Build IPA for App Store
         script: |
