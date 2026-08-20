@@ -10,6 +10,7 @@ workflows:
           - Magic
         provisioning_profiles:
           - "Ary Perfumes"
+          - "PUT_THE_EXTENSION_PROFILE_NAME_HERE"
     scripts:
       - name: Configure Xcode signing
         script: |
