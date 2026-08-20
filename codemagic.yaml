@@ -15,6 +15,12 @@ workflows:
       - name: Configure Xcode signing
         script: |
           xcode-project use-profiles --project "Ary Perfumes.xcodeproj"
+      - name: Debug and Resolve Packages
+        script: |
+          echo "--- LISTING SCHEMES CODEMAGIC SEES ---"
+          xcodebuild -project "Ary Perfumes.xcodeproj" -list
+          echo "--- DOWNLOADING ONESIGNAL DEPENDENCIES ---"
+          xcodebuild -resolvePackageDependencies -project "Ary Perfumes.xcodeproj"
       - name: Build IPA for App Store
         script: |
           xcode-project build-ipa \
