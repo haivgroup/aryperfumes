@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -64,7 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2028CC372A58578F00E11C22 /* Globel School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Globel School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2028CC372A58578F00E11C22 /* Ary Perfumes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ary Perfumes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2028CC3A2A58578F00E11C22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2028CC3C2A58578F00E11C22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2028CC3E2A58578F00E11C22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,9 +73,9 @@
 		2028CC462A58579000E11C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2028CC492A58579000E11C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2028CC4B2A58579000E11C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2028CC502A58579100E11C22 /* Globel SchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Globel SchoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2028CC502A58579100E11C22 /* Ary PerfumesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ary PerfumesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2028CC542A58579100E11C22 /* Globel_SchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globel_SchoolTests.swift; sourceTree = "<group>"; };
-		2028CC5A2A58579100E11C22 /* Globel SchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Globel SchoolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2028CC5A2A58579100E11C22 /* Ary PerfumesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ary PerfumesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2028CC5E2A58579100E11C22 /* Globel_SchoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globel_SchoolUITests.swift; sourceTree = "<group>"; };
 		2028CC602A58579100E11C22 /* Globel_SchoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globel_SchoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2028CC6D2A58597700E11C22 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
@@ -84,6 +84,7 @@
 		2028CC7D2A5F33DA00E11C22 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		2028CC7F2A5F33DA00E11C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2028CC8F2A5F37DB00E11C22 /* Globel School.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Globel School.entitlements"; sourceTree = "<group>"; };
+		20D058AA2B7CC9B100D37A0E /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +135,9 @@
 		2028CC382A58578F00E11C22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2028CC372A58578F00E11C22 /* Globel School.app */,
-				2028CC502A58579100E11C22 /* Globel SchoolTests.xctest */,
-				2028CC5A2A58579100E11C22 /* Globel SchoolUITests.xctest */,
+				2028CC372A58578F00E11C22 /* Ary Perfumes.app */,
+				2028CC502A58579100E11C22 /* Ary PerfumesTests.xctest */,
+				2028CC5A2A58579100E11C22 /* Ary PerfumesUITests.xctest */,
 				2028CC7B2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
@@ -180,6 +181,7 @@
 		2028CC7C2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension */ = {
 			isa = PBXGroup;
 			children = (
+				20D058AA2B7CC9B100D37A0E /* OneSignalNotificationServiceExtension.entitlements */,
 				2028CC7D2A5F33DA00E11C22 /* NotificationService.swift */,
 				2028CC7F2A5F33DA00E11C22 /* Info.plist */,
 			);
@@ -189,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2028CC362A58578F00E11C22 /* Globel School */ = {
+		2028CC362A58578F00E11C22 /* Ary Perfumes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2028CC642A58579100E11C22 /* Build configuration list for PBXNativeTarget "Globel School" */;
+			buildConfigurationList = 2028CC642A58579100E11C22 /* Build configuration list for PBXNativeTarget "Ary Perfumes" */;
 			buildPhases = (
 				2028CC332A58578F00E11C22 /* Sources */,
 				2028CC342A58578F00E11C22 /* Frameworks */,
@@ -203,18 +205,18 @@
 			dependencies = (
 				2028CC812A5F33DA00E11C22 /* PBXTargetDependency */,
 			);
-			name = "Globel School";
+			name = "Ary Perfumes";
 			packageProductDependencies = (
 				2028CC8B2A5F365700E11C22 /* OneSignal */,
 				2028CC8D2A5F365700E11C22 /* OneSignalExtension */,
 			);
 			productName = "Globel School";
-			productReference = 2028CC372A58578F00E11C22 /* Globel School.app */;
+			productReference = 2028CC372A58578F00E11C22 /* Ary Perfumes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2028CC4F2A58579100E11C22 /* Globel SchoolTests */ = {
+		2028CC4F2A58579100E11C22 /* Ary PerfumesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2028CC672A58579100E11C22 /* Build configuration list for PBXNativeTarget "Globel SchoolTests" */;
+			buildConfigurationList = 2028CC672A58579100E11C22 /* Build configuration list for PBXNativeTarget "Ary PerfumesTests" */;
 			buildPhases = (
 				2028CC4C2A58579100E11C22 /* Sources */,
 				2028CC4D2A58579100E11C22 /* Frameworks */,
@@ -225,14 +227,14 @@
 			dependencies = (
 				2028CC522A58579100E11C22 /* PBXTargetDependency */,
 			);
-			name = "Globel SchoolTests";
+			name = "Ary PerfumesTests";
 			productName = "Globel SchoolTests";
-			productReference = 2028CC502A58579100E11C22 /* Globel SchoolTests.xctest */;
+			productReference = 2028CC502A58579100E11C22 /* Ary PerfumesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2028CC592A58579100E11C22 /* Globel SchoolUITests */ = {
+		2028CC592A58579100E11C22 /* Ary PerfumesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2028CC6A2A58579100E11C22 /* Build configuration list for PBXNativeTarget "Globel SchoolUITests" */;
+			buildConfigurationList = 2028CC6A2A58579100E11C22 /* Build configuration list for PBXNativeTarget "Ary PerfumesUITests" */;
 			buildPhases = (
 				2028CC562A58579100E11C22 /* Sources */,
 				2028CC572A58579100E11C22 /* Frameworks */,
@@ -243,9 +245,9 @@
 			dependencies = (
 				2028CC5C2A58579100E11C22 /* PBXTargetDependency */,
 			);
-			name = "Globel SchoolUITests";
+			name = "Ary PerfumesUITests";
 			productName = "Globel SchoolUITests";
-			productReference = 2028CC5A2A58579100E11C22 /* Globel SchoolUITests.xctest */;
+			productReference = 2028CC5A2A58579100E11C22 /* Ary PerfumesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		2028CC7A2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension */ = {
@@ -291,8 +293,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2028CC322A58578F00E11C22 /* Build configuration list for PBXProject "Globel School" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 2028CC322A58578F00E11C22 /* Build configuration list for PBXProject "Ary Perfumes" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -303,13 +304,14 @@
 			packageReferences = (
 				2028CC8A2A5F365700E11C22 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
 			);
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 2028CC382A58578F00E11C22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2028CC362A58578F00E11C22 /* Globel School */,
-				2028CC4F2A58579100E11C22 /* Globel SchoolTests */,
-				2028CC592A58579100E11C22 /* Globel SchoolUITests */,
+				2028CC362A58578F00E11C22 /* Ary Perfumes */,
+				2028CC4F2A58579100E11C22 /* Ary PerfumesTests */,
+				2028CC592A58579100E11C22 /* Ary PerfumesUITests */,
 				2028CC7A2A5F33DA00E11C22 /* OneSignalNotificationServiceExtension */,
 			);
 		};
@@ -393,12 +395,12 @@
 /* Begin PBXTargetDependency section */
 		2028CC522A58579100E11C22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2028CC362A58578F00E11C22 /* Globel School */;
+			target = 2028CC362A58578F00E11C22 /* Ary Perfumes */;
 			targetProxy = 2028CC512A58579100E11C22 /* PBXContainerItemProxy */;
 		};
 		2028CC5C2A58579100E11C22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2028CC362A58578F00E11C22 /* Globel School */;
+			target = 2028CC362A58578F00E11C22 /* Ary Perfumes */;
 			targetProxy = 2028CC5B2A58579100E11C22 /* PBXContainerItemProxy */;
 		};
 		2028CC812A5F33DA00E11C22 /* PBXTargetDependency */ = {
@@ -553,21 +555,28 @@
 				CODE_SIGN_ENTITLEMENTS = "Globel School/Globel School.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 56GC3J8RPS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Globel School/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ary Perfumes";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access to read items barcode";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.Globel-School";
+				MARKETING_VERSION = 1.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.aryperfumes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -585,21 +594,28 @@
 				CODE_SIGN_ENTITLEMENTS = "Globel School/Globel School.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 56GC3J8RPS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Globel School/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ary Perfumes";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access to read items barcode";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.Globel-School";
+				MARKETING_VERSION = 1.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.aryperfumes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -615,6 +631,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56GC3J8RPS;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -623,7 +640,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Globel School.app/Globel School";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ary Perfumes.app/Ary Perfumes";
 			};
 			name = Debug;
 		};
@@ -634,6 +651,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56GC3J8RPS;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -642,7 +660,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Globel School.app/Globel School";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ary Perfumes.app/Ary Perfumes";
 			};
 			name = Release;
 		};
@@ -652,6 +670,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56GC3J8RPS;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.Globel-SchoolUITests";
@@ -669,6 +688,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56GC3J8RPS;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.Globel-SchoolUITests";
@@ -683,6 +703,7 @@
 		2028CC842A5F33DA00E11C22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -697,7 +718,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.Globel-School.OneSignalNotificationServiceExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.aryperfumes.OneSignalNotificationServiceExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -709,6 +730,7 @@
 		2028CC852A5F33DA00E11C22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -723,7 +745,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.Globel-School.OneSignalNotificationServiceExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "Haiv-Group.aryperfumes.OneSignalNotificationServiceExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -735,7 +757,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2028CC322A58578F00E11C22 /* Build configuration list for PBXProject "Globel School" */ = {
+		2028CC322A58578F00E11C22 /* Build configuration list for PBXProject "Ary Perfumes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2028CC622A58579100E11C22 /* Debug */,
@@ -744,7 +766,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2028CC642A58579100E11C22 /* Build configuration list for PBXNativeTarget "Globel School" */ = {
+		2028CC642A58579100E11C22 /* Build configuration list for PBXNativeTarget "Ary Perfumes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2028CC652A58579100E11C22 /* Debug */,
@@ -753,7 +775,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2028CC672A58579100E11C22 /* Build configuration list for PBXNativeTarget "Globel SchoolTests" */ = {
+		2028CC672A58579100E11C22 /* Build configuration list for PBXNativeTarget "Ary PerfumesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2028CC682A58579100E11C22 /* Debug */,
@@ -762,7 +784,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2028CC6A2A58579100E11C22 /* Build configuration list for PBXNativeTarget "Globel SchoolUITests" */ = {
+		2028CC6A2A58579100E11C22 /* Build configuration list for PBXNativeTarget "Ary PerfumesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2028CC6B2A58579100E11C22 /* Debug */,

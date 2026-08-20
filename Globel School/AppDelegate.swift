@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import OneSignal
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        OneSignal.setLogLevel(.LL_VERBOSE, visualLevel: .LL_NONE)
+
+        Thread.sleep(forTimeInterval: 2)
+        // OneSignal initialization
+        OneSignal.initWithLaunchOptions(launchOptions)
+        OneSignal.setAppId("0d77b0e8-fd11-4237-8284-c447bd601572")
+        
+        // promptForPushNotifications will show the native iOS notification permission prompt.
+        // We recommend removing the following code and instead using an In-App Message to prompt for notification permission (See step 8)
+        OneSignal.promptForPushNotifications(userResponse: { accepted in
+          print("User accepted notifications: \(accepted)")
+        })
+        
+     
+
+        // Set your customer userId
+//        let externalUserId = "123456789"
+        // You will supply the external user id to the OneSignal SDK
+//        OneSignal.setExternalUserId(externalUserId)
+//         OneSignal.setExternalUserId("userId")
+
+        
+        
         return true
     }
 
@@ -41,7 +65,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "Globel_School")
+        let container = NSPersistentContainer(name: "Ary Perfumes")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
